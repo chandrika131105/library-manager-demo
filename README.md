@@ -1,6 +1,7 @@
 # Library Manager (demo)
 
 [![Maven CI](https://github.com/chandrika131105/library-manager-demo/actions/workflows/maven.yml/badge.svg?branch=main)](https://github.com/chandrika131105/library-manager-demo/actions/workflows/maven.yml)
+[![Maven CI (PRs)](https://github.com/chandrika131105/library-manager-demo/actions/workflows/maven.yml/badge.svg?event=pull_request)](https://github.com/chandrika131105/library-manager-demo/actions/workflows/maven.yml)
 
 A simple Java 17 Maven project that models books and a small in-memory library manager.
 
