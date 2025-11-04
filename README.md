@@ -4,24 +4,23 @@ A simple Java 17 Maven project that models books and a small in-memory library m
 
 ## Build and test
 
-```pwsh
-# From the project root or anywhere
-mvn -f "c:\\Users\\harsh\\OneDrive\\Documents\\Library_manager[1]\\Library manager\\demo\\pom.xml" -DskipTests=false test
+```bash
+mvn -DskipTests=false test
 ```
 
 ## Run the application
 
 - Via Maven (exec plugin):
 
-```pwsh
-mvn -f "c:\\Users\\harsh\\OneDrive\\Documents\\Library_manager[1]\\Library manager\\demo\\pom.xml" exec:java
+```bash
+mvn exec:java
 ```
 
 - As a runnable JAR:
 
-```pwsh
-mvn -f "c:\\Users\\harsh\\OneDrive\\Documents\\Library_manager[1]\\Library manager\\demo\\pom.xml" -DskipTests=true package
-java -jar "c:\\Users\\harsh\\OneDrive\\Documents\\Library_manager[1]\\Library manager\\demo\\target\\book-manager-1.0-SNAPSHOT.jar"
+```bash
+mvn -DskipTests=true package
+java -jar target/book-manager-1.0-SNAPSHOT.jar
 ```
 
 ## How it works
